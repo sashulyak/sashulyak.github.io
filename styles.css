@@ -117,13 +117,12 @@ h3{
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 40px !important;
     width: 25px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
-    border-radius: 50%;
+    margin: 5px 2px;
 }
 
 .fa:hover {
@@ -131,57 +130,52 @@ h3{
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+    color: #3B5998;
 }
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    color: #55ACEE;
 }
 
 .fa-google {
-    background: #dd4b39;
-    color: white;
+    color: #dd4b39;
 }
 
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    color: #007bb5;
 }
 
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+    color: #bb0000;
 }
 
 .fa-instagram {
-    background: #fb3958;
-    color: white;
+    color: #fb3958;
 }
 
 .fa-github {
-    background: #000000;
-    color: white;
+    color: #000000;
 }
 
 .fa-habr {
-    background: #6699cc;
-    color: white;
-    font: system-ui, sans-serif;
+    color: #6699cc;
+    font-family: system-ui, sans-serif !important;
+    font-weight: bold  !important;
+    padding-left: 20px  !important;
+    padding-right: 5px  !important;
 }
 
 .fa-email {
-    background: #6699cc;
-    color: white;
-    font: system-ui, sans-serif;
+    color: #555555;
+    background: white;
+    font-family: system-ui, sans-serif !important;
+    font-weight: bold  !important;
 }
 
 .fa-soundcloud {
-    padding-left: 17px;
-    padding-right: 23px;
-    background: #ff6600;
-    color: white;
+    padding-right: 20px; 
+    color: #ff6600;
+    background: white;
 }
 
 @media screen and (min-width:40em){
